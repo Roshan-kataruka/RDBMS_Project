@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@600&display=swap");
+
+.center {
+  position: relative;
+  padding: 50px 50px;
+  background: url(Logo/com_bg.jpg);
+  border-radius: 10px;
+  background-repeat: no-repeat;
+}
+.center h1 {
+  font-size: 2em;
+  border-left: 5px solid dodgerblue;
+  padding: 10px;
+  color: #fdfdfd;
+  letter-spacing: 5px;
+  margin-bottom: 30px;
+  font-weight: bold; 
+  padding-left: 10px;
+}
+
+input[type="text"],textarea{
+  width: 100%;
+  border: 2px solid #fefcfc;
+  outline: none;
+  background: none;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 1.2em;
+  margin-bottom: 15px;
+  color: #fdfdfd;
+  /* background-color: #dadada; */
+}
+
+button {
+  width: 50%;
+  background: dodgerblue;
+  color: #fff;
+  border: #fff;
+  font-size: 25px;
+  position: relative;
+  margin-left: 25%;
+  margin-top: 20px;
+}
+button:hover{
+  background: linear-gradient(45deg, rgb(156, 230, 228), dodgerblue,rgb(16, 31, 143));
+}
+.my_form
+{
+    margin: 25px;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background: url(Logo/complaint_bg.jpg); */
+    font-family: "Sansita Swashed", cursive;
+    overflow: hidden;
+}

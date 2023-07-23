@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@600&display=swap");
+
+.center {
+  position: relative;
+  padding: 50px 50px;
+  background: url(Logo/com_bg.jpg);
+  border-radius: 10px;
+  background-repeat: no-repeat;
+  width: 50%;
+  display: none;
+}
+.center h1 {
+  font-size: 2em;
+  border-left: 5px solid dodgerblue;
+  padding: 10px;
+  color: #fdfdfd;
+  letter-spacing: 5px;
+  margin-bottom: 30px;
+  font-weight: bold; 
+  padding-left: 10px;
+
+}
+.center1
+{
+  position: relative;
+  padding: 50px 50px;
+  background: url(Logo/com_bg.jpg);
+  border-radius: 10px;
+  background-repeat: no-repeat;
+  width: 50%;
+}
+.center1 h1 {
+  font-size: 2em;
+  border-left: 5px solid dodgerblue;
+  padding: 10px;
+  color: #fdfdfd;
+  letter-spacing: 5px;
+  margin-bottom: 30px;
+  font-weight: bold; 
+  padding-left: 10px;
+
+}
+input[type="text"],input[type="email"],input[type="tel"],input[type="password"],input[type="number"],input[type="date"],textarea,fieldset{
+  width: 100%;
+  border: 2px solid #fefcfc;
+  outline: none;
+  background: none;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 1.2em;
+  margin-bottom: 15px;
+  color: #fdfdfd;
+  /* background-color: #dadada; */
+}
+.Drops{
+  width: 100%;
+  border: 2px solid #fefcfc;
+  outline: none;
+  background: none;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 1.2em;
+  margin-bottom: 15px;
+  color: #fdfdfd;
+  background: #171749;
+}
+.del,.edit
+{
+    color: white;
+    padding: 5px;
+    border-radius: 3px;
+    background-color: rgb(23, 95, 115);
+    cursor: pointer;
+}
+
+.my_form
+{
+    margin: 25px;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background: url(Logo/bg5.jpeg); */
+    font-family: "Sansita Swashed", cursive;
+    overflow: hidden;
+}
+#addstation,#Addstation,#Addofficier,#Edit_form,#submitupdate,#Addnumber{
+  width: 50%;
+  background: dodgerblue;
+  color: #fff;
+  border: #fff;
+  font-size: 25px;
+  position: relative;
+  margin-left: 25%;
+  margin-top: 20px;
+}
+#addstation:hover,#Addstation:hover,#Addofficier:hover,#Edit_form:hover,#submitupdate:hover,#Addnumber:hover{
+  background: linear-gradient(45deg, rgb(156, 230, 228), dodgerblue,rgb(16, 31, 143));
+}
+#addofficier{
+  width: 50%;
+  background: dodgerblue;
+  color: #fff;
+  border: #fff;
+  font-size: 25px;
+  position: relative;
+  margin-left: 25%;
+  margin-top: 20px;
+}
